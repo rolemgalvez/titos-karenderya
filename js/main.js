@@ -19,3 +19,17 @@ window.addEventListener('scroll', function() {
     this.document.querySelector('#navbar').style.opacity = 1;
   }
 });
+
+// Smooth Scrolling
+$('#navbar a, .btn').on('click', function (event) {
+  if (this.hash !== '') {
+    event.preventDefault();
+
+    $('html, body').animate(
+      {
+        scrollTop: $(this.hash).offset().top - 70
+      },
+      800
+    );
+  }
+});
