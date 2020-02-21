@@ -1,0 +1,15 @@
+/* Section: What (align icon to the left) */
+#what .container .items {
+  align-items: flex-start;
+}
+
+#what .container .items .item {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+/* Section: Contact (More space for Map) */
+#contact .map {
+  flex: 2;
+}
