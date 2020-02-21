@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 /* Reset */
 * {
@@ -17,7 +17,8 @@ a {
 }
 
 p {
-  padding: 0.5rem 0;
+  padding: 1rem 0;
+  line-height: 1.5rem;
 }
 
 /* Utilities */
@@ -35,16 +36,72 @@ p {
 .py-2 { padding: 2rem 0; }
 .py-3 { padding: 3rem 0; }
 
+.p-1 { padding: 1.5rem; }
+.p-2 { padding: 2rem; }
+.p-3 { padding: 3rem; }
+
 .btn {
   display: inline-block;
   color: #fff;
   padding: 1rem 2rem;
+  border: none;
   background-color: #FE3523;
   border-radius: 5px;
 }
 
 .btn:hover {
   background-color: rgb(223, 47, 31);
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+.bg-primary {
+  background-color: #FE3523;
+  color: #f4f4f4;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1rem;
+}
+
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1rem;
+}
+
+.s-heading {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  margin: 0.5rem 0;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px dotted #444;
 }
 
 /* Navbar */
@@ -120,4 +177,86 @@ p {
 #showcase .showcase-content p {
   font-size: 1.3rem;
   line-height: 2rem;
+}
+
+/* Section: What We Do */
+#what .container h2 {
+  margin: 0.5rem 0 3rem 0;
+}
+
+#what .container .items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#what .container .items .item {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+#what .container .items .item li {
+  background-color: #FE3523;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+#what .container .items .item div {
+  padding-left: 1rem;
+}
+
+#what .container .items .item div h3 {
+  padding-bottom: 0.8rem;
+}
+
+/* Section: Who We Are */
+#who {
+  display: flex;
+}
+
+#who div {
+  flex: 1;
+}
+
+#who .who-img {
+  background: url('../img/team.jpg') no-repeat center center/cover;
+}
+
+/* Section: Our Clients */
+#clients .container .items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#clients .container .items div img {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+/* Section: Contact */
+#contact {
+  display: flex;
+}
+
+#contact .contact-form,
+#contact .map {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form .form-group label {
+  display: block;
+  padding-bottom: 0.2rem;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 5px;
 }
