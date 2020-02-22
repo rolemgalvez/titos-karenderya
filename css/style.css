@@ -174,7 +174,12 @@ p {
 
 #showcase .showcase-content h2 {
   font-size: 4rem;
+  line-height: 5rem;
   padding: 1.5rem;
+}
+
+#showcase .showcase-content p {
+  margin-bottom: 2rem;
 }
 
 #showcase .showcase-content p {
@@ -194,9 +199,6 @@ p {
 }
 
 #what .container .items .item {
-  /* padding: 0 1rem;
-  display: flex;
-  align-items: center; */
   text-align: center;
   padding: 0 1rem;
 }

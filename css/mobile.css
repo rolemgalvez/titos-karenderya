@@ -1,0 +1,77 @@
+/* Section: Who We Are */
+#who {
+  height: 750px;
+  flex-direction: column;
+}
+
+#who .who-img {
+  width: 100%;
+}
+
+/* Section: What We Do */
+#what .container .items {
+  flex-direction: column;
+}
+
+#what .container .items .item {
+  margin-bottom: 1rem;
+}
+
+
+
+/* Smartphones */
+@media(max-width: 500px) {
+  /* Navbar */
+  #navbar .container {
+    flex-direction: column;
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  #navbar .container ul {
+    margin: 0 1rem;
+  }
+
+  #navbar .container ul li {
+    padding: 0.2rem;
+  }
+
+  /* Header: Showcase */
+  #showcase {
+    height: 90vh;
+  }
+
+  #showcase .showcase-content p {
+    margin-bottom: 0;
+  }
+
+  #showcase .showcase-content h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-top: -2rem;
+    padding-bottom: 0;
+  }
+
+  /* Section: Clients */
+  #clients {
+    padding-bottom: 0;
+  }
+
+  #clients .container .items {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    padding: 1rem 0;
+  }
+
+  #clients .container .items div {
+    width: 40%;
+    margin: 1rem 0;
+  }
+
+  /* Section: Contact */
+  #contact {
+    flex-direction: column;
+    height: 800px;
+  }
+  
+}

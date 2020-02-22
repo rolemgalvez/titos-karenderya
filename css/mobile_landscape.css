@@ -1,0 +1,20 @@
+/* Header: Showcase */
+#showcase {
+  height: 500px;
+}
+
+/* Section: Who We Are */
+#who {
+  height: 750px;
+  flex-direction: column;
+}
+
+#who .who-img {
+  width: 100%;
+}
+
+/* Section: Contact */
+#contact {
+  flex-direction: column;
+  height: 800px;
+}
