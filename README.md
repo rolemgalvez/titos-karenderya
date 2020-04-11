@@ -3,7 +3,7 @@ A website for an imaginary carinderia. It showcases the store's food preview, no
 
 Go now to [Titos Karenderya](https://titos-karenderya-mrg.netlify.com) website to view it.
 
-## Snapshots
+## Preview
 |   Desktop   |   Mobile    |
 | ----------- | ----------- |
 | ![Home - Desktop View](./img/snapshots/home-desktop.png) | ![Home - Mobile View](./img/snapshots/home-mobile.PNG) |
